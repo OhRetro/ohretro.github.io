@@ -3,6 +3,43 @@ body {
     color: white;
     font-family: monospace;
 }
-h1 {
-    background-color:rgb(25, 25, 25);
+
+.centertext {
+    text-align: center;
+}
+
+.centercontent {
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    /* text center*/
+    text-align: center;
+
+    /* content center */
+    margin: auto;
+    width: 50%;
+}
+
+.border1 {
+    border: 2px solid rgb(61, 61, 61);
+}
+
+.bgcolor1 {
+    background-color: rgb(25, 25, 25);
+}
+
+.spacing {
+    padding: 10px;
+}
+
+.sizelimit1 {
+    max-width: 50%;
+}
+
+.rounded_corners {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
 }
