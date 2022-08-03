@@ -4,6 +4,10 @@ body {
     font-family: monospace;
 }
 
+.lefttext {
+    text-align: left;
+}
+
 .centertext {
     text-align: center;
 }
@@ -34,12 +38,16 @@ body {
     padding: 10px;
 }
 
-.sizelimit1 {
-    max-width: 50%;
-}
-
 .rounded_corners {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+}
+
+.textsize1 {
+    font-size: x-large;
+}
+
+.textsize2 {
+    font-size: xx-large;
 }
