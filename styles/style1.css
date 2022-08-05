@@ -4,24 +4,19 @@ body {
     font-family: monospace;
 }
 
-.lefttext {
+.lefttext, .left {
     text-align: left;
 }
 
-.centertext {
+.leftcontent, .left{
+    margin-left: 20px;
+}
+
+.centertext, .center {
     text-align: center;
 }
 
-.centercontent {
-    margin: auto;
-    width: 50%;
-}
-
-.center {
-    /* text center*/
-    text-align: center;
-
-    /* content center */
+.centercontent, .center {
     margin: auto;
     width: 50%;
 }
@@ -39,8 +34,6 @@ body {
 }
 
 .rounded_corners {
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
     border-radius: 8px;
 }
 
