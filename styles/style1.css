@@ -4,29 +4,40 @@ body {
     font-family: monospace;
 }
 
-.lefttext, .left {
+.lefttext,
+.left {
     text-align: left;
 }
 
-.leftcontent, .left{
+.leftcontent,
+.left {
     margin-left: 20px;
 }
 
-.centertext, .center {
+.centertext,
+.center {
     text-align: center;
 }
 
-.centercontent, .center {
+.centercontent,
+.center {
     margin: auto;
     width: 50%;
 }
 
+table,
+th,
+td,
 .border1 {
     border: 2px solid rgb(61, 61, 61);
 }
 
 .bgcolor1 {
     background-color: rgb(25, 25, 25);
+}
+
+.bgcolor2 {
+    background-color: rgb(19, 19, 19);
 }
 
 .spacing {
